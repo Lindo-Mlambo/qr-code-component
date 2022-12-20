@@ -1,0 +1,44 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: var(--light-gray);
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-family: outfit;
+}
+
+h2 {
+  font-weight: 700;
+  color: var(--dark-blue)
+}
+
+div.card {
+  background-color: var(--white);
+  border-radius: 16px;
+  padding: 16px;
+  width: 300px;
+  text-align: center;
+}
+
+div.card img {
+  width: 100%;
+  border-radius: inherit;
+}
+div.card .card-content {
+  margin: 8px;
+}
+div.card .card-content p {
+  color: var(--grayish-blue);
+  padding: 16px;
+}
